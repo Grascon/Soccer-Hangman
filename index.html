@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Soccer Hangman</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+</head>
+<body data-spy="scroll" data-target=".navbar" >
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href="#"><h1><i class="far fa-futbol"></i> Soccer Hangman</h1></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#game-section">Game <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about-section">About</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="game-section">
+        <div class="row">
+            <div class="col-sm-6 text-center">
+                <h4 class="background">Press Any Key To Get Started!</h4>
+                <h3 class="background" id="correct-word-display"></h3>
+                <img id="display-image" src="" alt="Display Image">  
+            </div>
+            <div class="col-sm-6 text-center">
+                <p class="background">Guess the Word</p>
+                <p class="background"><span id="underscore-display"></span></p>
+                <p class="background" id="guesses">Letters Guessed: <span id="user-guesses-display"></span></p>
+                <p class="background">Guesses Left: <span id="guesses-left-display"></span></p>
+                <p class="background">Wins: <span id="wins-display"></span></p>
+                <p class="background">Losses: <span id="losses-display"></span></p>
+            </div>
+        </div>
+    </section>
+
+    <section id="about-section" class="bg-success">
+        <div class="row justify-content-center">
+            <div class="col-md-8 col-sm-12">
+                <h5>Welcome to Soccer Hangman!</h5>
+                <p>This site was built using HTML, CSS, JavaScript, jQuery, Bootstrap 4, Google Fonts, and Font Awesome. In order to play, press any letter key to begin guessing which soccer player it is. The chosen player is selected randomly and you have 10 guesses before you lose. The game will then restart. Good luck!</p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="page-footer font-small blue">
+        <div class="footer-copyright text-center py-3">
+            © 2019 Copyright: Gilberto Rascon
+        </div>
+    </footer>
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    
+    <script src="main.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</body>
+</html>

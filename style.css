@@ -1,0 +1,80 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+nav{
+  background-color: #355CBB;
+  font-family: 'Titillium Web', sans-serif;
+  -webkit-box-shadow: -1px 8px 14px 0px rgba(0,0,0,0.62);
+  -moz-box-shadow: -1px 8px 14px 0px rgba(0,0,0,0.62);
+  box-shadow: -1px 8px 14px 0px rgba(0,0,0,0.62);
+}
+.fa-futbol{
+  color: black;
+  text-shadow: none;
+}
+.navbar-collapse {
+  text-align: center;
+}
+h1{
+  text-shadow: 0px 8px 5px black;
+}
+section{
+  color: white;
+  font-family: 'Titillium Web', sans-serif;
+}
+#game-section{
+  background: url("https://i.pinimg.com/originals/0e/ce/54/0ece549873cd7c077040ad500cbc832f.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 100vw;
+  height: 100vh;
+  padding-top: 15%;
+}
+#about-section{
+  width: 100vw;
+  height: 100vh;
+  padding: 20% 10%;
+  color: white;
+  font-family: 'Titillium Web', sans-serif;
+}
+h3{
+  display: none;
+}
+#correct-word-display{
+  text-transform: capitalize;;
+}  
+#display-image {
+  width: 350px;
+  height: 350px;
+  text-align: center;
+  margin: 0 auto;
+}
+#guesses{
+  text-align: left;
+  padding-left: 5%;
+}
+.background{
+  background-color: #355CBB;
+  width: 65%;
+  margin: 10px auto;
+  padding: 1%;
+  border-radius: 15px;
+}
+.alert{
+  background-color: #CB4335 ;
+  width: 65%;
+  margin: 10px auto;
+  padding: 1%;
+  border-radius: 15px;
+}
+footer{
+  background-color: #355CBB;
+  color: white;
+  font-family: 'Titillium Web', sans-serif;
+}
